@@ -27,19 +27,20 @@ document.getElementById('loginForm').addEventListener('submit',function(e){
     
     
     const userName=document.getElementById('loginUsername').value;
-    const password=document.getElementById('loginPasswrd').value;
+    const passwrd=document.getElementById('loginPasswrd').value;
 
 
 fetch('http://localhost:8080/api/login',{ //örnek olsun diye backend e asil adresi yazicaz
  method:'POST',
  headers:{ 'Content-Type':'application/json'},
- body:JSON.stringify({username,password})
+ body:JSON.stringify({userName,passwrd})
 }).then(response=>response.text())
 .then(data=>{
     alert('Giriş Sonucu '+data)
 }).catch(error=>console.error('Hata ',error))
 
 })
+
 
 
 
