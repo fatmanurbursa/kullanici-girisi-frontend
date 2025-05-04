@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    margin-top:10px;
+    border-radius: 6px;
+    background-color: rgba(67, 67, 158, 0.728);
+    color: white;
+}
+
+.navbar{
+    background-color: grey;
+    color: white;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
